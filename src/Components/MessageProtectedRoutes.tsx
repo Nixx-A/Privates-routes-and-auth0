@@ -4,7 +4,9 @@ export default function MessageProtectedRoutes (): JSX.Element {
   return (
     <section className="flex items-center justify-center flex-col mt-8">
       <h1>You need to login first</h1>
+      <div className='mt-4 text-2xl'>
       <LoginButton />
+      </div>
     </section>
   )
 }
